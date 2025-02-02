@@ -44,7 +44,10 @@ To execute unit tests with the [Karma](https://karma-runner.github.io) test runn
 ng test
 ```
 
-## Running end-to-end tests
+## URL OF THE PROJECT 
+```bash
+https://statuesque-buttercream-ba70af.netlify.app/
+```
 
 For end-to-end (e2e) testing, run:
 
