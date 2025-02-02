@@ -1,3 +1,10 @@
+export interface User {
+  id: number;
+  name: string;
+  workouts: any[];
+  totalWorkouts: number;
+  totalMinutes: number;
+}
 export const initialData = [
     {
       id: 1,

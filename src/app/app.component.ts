@@ -1,18 +1,17 @@
 import { Component, ViewChild } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { AddUserComponent } from '@/app/components/add-user/add-user.component';
 import { UsersComponent } from '@/app/components/users/users.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { CommonModule } from '@angular/common';
 import { ProgressChartComponent } from '@/app/components/progress-chart/progress-chart.component';
-import { initialData } from '@/app/app.model';
+import { initialData } from '@/app/apps.models';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    RouterOutlet,
     CommonModule,
     MatTabsModule,
     AddUserComponent,
@@ -20,7 +19,7 @@ import { initialData } from '@/app/app.model';
     ProgressChartComponent,
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrls: []
 })
 export class AppComponent {
   title = 'Health-Challenge-Tracker';
