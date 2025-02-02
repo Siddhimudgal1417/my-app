@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "externalDependencies": ["@angular/material/prebuilt-themes/azure-blue.css"],
             "outputPath": "dist/Health-Challenge-Tracker",
             "index": "src/index.html",
             "browser": "src/main.ts",
